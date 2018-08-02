@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2014 Darren Scott - All Rights Reserved
+
+	This program is distributed under LGPL Version 2.1 in the hope that
+	it will be useful, but WITHOUT ANY WARRANTY.
+-->
+<language-addon>
+
+    <addon-name>aceditor</addon-name>
+    <language-name>xul/html</language-name>
+
+    <component>
+        <component-name>aceditor</component-name>
+        <component-class>tools.dynamia.zk.addons.Aceditor</component-class>
+        <widget-class>tools.dynamia.zk.addons.Aceditor</widget-class>
+		<extends>textbox</extends>
+    </component>
+	
+</language-addon>

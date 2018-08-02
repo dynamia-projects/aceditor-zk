@@ -1,0 +1,53 @@
+<?page title="ACE Editor for ZK 8.x" ?>
+
+<zk>
+
+    <window title="ACE Editor for ZK" border="normal" mode="overlapped" position="center" width="90%" height="90%"
+            maximizable="true">
+
+
+        <borderlayout hflex="1" vflex="1">
+
+            <center>
+                <tabbox vflex="1" hflex="1">
+                    <tabs>
+                        <tab label="Flex Test"/>
+                        <tab label="Custom Size and Theme"/>
+                        <tab label="Readonly"/>
+                    </tabs>
+                    <tabpanels>
+                        <tabpanel>
+                            <aceditor mode="html" vflex="1" hflex="1"
+                                      value="&lt;h1&gt;Welcome to Ace Editor for ZK&lt;/h1&gt;"/>
+                        </tabpanel>
+                        <tabpanel>
+                            <aceditor mode="java" width="700px" height="400px" theme="ambiance">
+                                <attribute name="value">
+                                    Aceditor ace = new Aceditor();
+                                    ace.setTheme("ambiance");
+                                    ace.setWidth("500px");
+                                    ace.setHeight("400px");
+                                    ace.setMode("html");
+                                </attribute>
+                            </aceditor>
+                        </tabpanel>
+                        <tabpanel>
+                            <aceditor mode="java" hflex="1" vflex="1" theme="xcode" readonly="true" showGutter="false">
+                                <attribute name="value">
+                                    Aceditor ace = new Aceditor();
+                                    ace.setTheme("ambiance");
+                                    ace.setWidth("500px");
+                                    ace.setHeight("400px");
+                                    ace.setMode("html");
+                                </attribute>
+                            </aceditor>
+                        </tabpanel>
+                    </tabpanels>
+                </tabbox>
+
+            </center>
+        </borderlayout>
+    </window>
+
+
+</zk>
