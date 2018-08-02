@@ -30,13 +30,31 @@ Just add **aceditor-zk-xx.jar** to your project dependencies:
 compile "tools.dynamia.zk.addons:aceditor-zk:1.0.0"
 ```
 
-##Usage
+## Usage
 
 From **zul**
+```xml
+ <aceditor mode="java" width="700px" height="400px" theme="ambiance">
+    <attribute name="value">
+        Aceditor ace = new Aceditor();
+        ace.setTheme("ambiance");
+        ace.setWidth("500px");
+        ace.setHeight("400px");
+        ace.setMode("html");
+    </attribute>
+ </aceditor>
+```
+Aceditor support ZK MVVM databinding and commands
 
+From **Java**
 
 ```java
-
+Aceditor ace = new Aceditor();
+ace.setTheme("ambiance");
+ace.setWidth("500px");
+ace.setHeight("400px");
+ace.setMode("html");
+ace.setValue("<h1>Hello ZK</h1>");
 ```
 
 
