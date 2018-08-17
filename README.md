@@ -1,3 +1,5 @@
+[![Maven Central](https://img.shields.io/maven-central/v/tools.dynamia.zk.addons/aceditor-zk.svg?label=Maven%20Central)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22tools.dynamia.zk.addons%22%20a%3A%22aceditor-zk%22)
+
 # ACE Editor for ZK
 
 This library let you use Ace Editor (https://ace.c9.io/) in ZK application using pure Java or ZUL. 
