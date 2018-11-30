@@ -23,13 +23,13 @@ Just add **aceditor-zk-xx.jar** to your project dependencies:
 <dependency>
     <groupId>tools.dynamia.zk.addons</groupId>
     <artifactId>aceditor-zk</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
 **Gradle**
 ```bash
-compile "tools.dynamia.zk.addons:aceditor-zk:1.0.0"
+compile "tools.dynamia.zk.addons:aceditor-zk:1.0.1"
 ```
 
 ## Usage
