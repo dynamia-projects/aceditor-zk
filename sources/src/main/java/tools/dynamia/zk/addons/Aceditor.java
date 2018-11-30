@@ -21,17 +21,9 @@ public class Aceditor extends Textbox {
     private static final long serialVersionUID = 1L;
 
     protected List<Map<String, Object>> annotations;
-
-
-
     private boolean showGutter = true;
-
-
-
     private String mode;
-
     private String theme;
-
     private String fontSize;
 
     public Aceditor() {
@@ -45,7 +37,6 @@ public class Aceditor extends Textbox {
         render(renderer, "mode", this.mode);
         render(renderer, "theme", this.theme);
         render(renderer, "showgutter", this.showGutter);
-
         render(renderer, "fontSize", this.fontSize);
     }
 
@@ -65,7 +56,6 @@ public class Aceditor extends Textbox {
             super.updateByClient(name, value);
         }
     }
-
 
 
     public void setMode(String mode) {
@@ -96,8 +86,6 @@ public class Aceditor extends Textbox {
     public boolean getShowGutter() {
         return showGutter;
     }
-
-
 
 
     public String getFontSize() {
