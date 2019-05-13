@@ -27,18 +27,18 @@
                                     ace.setTheme("ambiance");
                                     ace.setWidth("500px");
                                     ace.setHeight("400px");
-                                    ace.setMode("html");
+                                    ace.setMode("java");
                                 </attribute>
                             </aceditor>
                         </tabpanel>
                         <tabpanel>
-                            <aceditor mode="java" hflex="1" vflex="1" theme="xcode" readonly="true" showGutter="false">
+                            <aceditor mode="groovy" hflex="1" vflex="1" theme="xcode" readonly="true" showGutter="false">
                                 <attribute name="value">
-                                    Aceditor ace = new Aceditor();
-                                    ace.setTheme("ambiance");
-                                    ace.setWidth("500px");
-                                    ace.setHeight("400px");
-                                    ace.setMode("html");
+                                    def ace = new Aceditor()
+                                    ace.theme = "xcode"
+                                    ace.width = "500px"
+                                    ace.height = "400px"
+                                    ace.mode = "groovy"
                                 </attribute>
                             </aceditor>
                         </tabpanel>

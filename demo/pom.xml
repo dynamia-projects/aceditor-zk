@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>tools.dynamia.zk.addons</groupId>
 			<artifactId>aceditor-zk</artifactId>
-			<version>1.0.0</version>
+			<version>1.4.4</version>
 		</dependency>
 
 		<dependency>
